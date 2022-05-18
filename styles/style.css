@@ -22,6 +22,64 @@ body {
     padding: 0;
 }
 
+.testimonials {
+    margin: 4rem auto;
+    width: 20rem;
+}
+
+.tm {
+    background-color: bisque;
+    border-radius: 0.75rem;
+
+    height: auto;
+
+    padding:1.5rem 2rem 2rem 2rem;
+}
+
+.tm:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.tm-grad {
+    display: flex;
+    align-items: flex-start;
+
+    font-size: 0.8125rem;
+}
+
+.tm-grad-img {
+    margin-right: 1rem;
+}
+
+.tm-grad-img img {
+    border-radius: 50%;
+    width: 2rem;
+}
+
+.tm-grad-details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tm-grad-verified-grad {
+    font-size: 0.8125rem;
+}
+
+.tm-review-title {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+.tm-review-para {
+    font-size: 0.8125rem;
+}
+
+.tm-review-para p {
+    margin: 0;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -29,4 +87,16 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media(min-width: 37.5rem) {
+    .testimonials {
+        width: 30rem;
+    }
+}
+
+@media(min-width: 48rem) {
+    .testimonials {
+        width: 45rem;
+    }
 }
