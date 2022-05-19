@@ -16,6 +16,8 @@ html {
 }
 
 body {
+    background-color: var(--l-gray);
+
     font-family: 'Barlow Semi Condensed', sans-serif;
 
     margin: 0;
@@ -64,6 +66,7 @@ body {
 
 .tm-grad-verified-grad {
     font-size: 0.8125rem;
+    opacity: 50%;
 }
 
 .tm-review-title {
@@ -78,6 +81,41 @@ body {
 
 .tm-review-para p {
     margin: 0;
+    opacity: 70%;
+}
+
+.tm-1, .tm-2 {
+    color: var(--white);
+}
+
+.tm-1 {
+    background-color: var(--moderate-violet);
+ 
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-position: 85% 0%;
+    background-repeat: no-repeat;
+}
+
+.tm-1 .tm-grad-img img {
+    border: solid 2px hsl(0, 0%, 100%, 0.5);
+}
+
+.tm-2 {
+    background-color: var(--xdk-grayish-blue);
+}
+
+.tm-3, .tm-5 {
+    background-color: var(--white);
+    color: var(--xdk-grayish-blue);
+}
+
+.tm-4 {
+    background-color: var(--dk-blackish-blue);
+    color: var(--white);
+}
+
+.tm-4 .tm-grad-img img {
+    border: solid 2px var(--moderate-violet);
 }
 
 .attribution {
